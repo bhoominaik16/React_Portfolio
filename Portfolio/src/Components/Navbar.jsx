@@ -13,7 +13,7 @@ function Navbar(){
     return(
         <header >
             <nav >
-                <div className='max-h-[10vh] p-5 bg-violet-200 flex items-center md:justify-between z-50'>
+                <div className='relative max-h-[10vh] p-5 bg-violet-200 flex items-center md:justify-between z-50'>
                     <div className='md:mx-10 mx-5'>
                         <Link to='/Pages/Home'><img className='max-h-[8vh] md:max-h-[10vh] p-2' src={logo} alt="Website logo" /></Link>
                     </div>
