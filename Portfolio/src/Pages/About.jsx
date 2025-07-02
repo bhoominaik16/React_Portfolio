@@ -16,7 +16,7 @@ function About(){
                 </p>
             </div>
             <div className="grid md:grid-cols-6 md:min-h-[50vh] border border-violet-300 rounded-lg place-items-center md:w-[70vw] mx-auto my-5">
-                <div className=" md:col-span-2 w-full p-5 grid grid-cols-3 md:grid-cols-1 gap-8 text-2xl font-semibold">
+                <div className=" md:col-span-2 w-full p-5 grid grid-cols-3 md:grid-cols-1 gap-3 md:gap-8 text-xl md:text-2xl font-semibold">
                     <button className="cursor-pointer hover:text-3xl" onClick={() => setActiveTab('education')}><h1>Education</h1></button>                    
                     <button className="cursor-pointer hover:text-3xl" onClick={() => setActiveTab('skills')}><h1>Skills</h1></button>                 
                     <button className="cursor-pointer hover:text-3xl" onClick={() => setActiveTab('experience')}><h1>Experience</h1></button>
