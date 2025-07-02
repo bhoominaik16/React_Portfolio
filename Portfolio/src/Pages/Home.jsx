@@ -10,7 +10,7 @@ function Home(){
                     <div className='max-w-[50%]'>
                         <h3 className='text-xl'>I am Bhoomi Naik</h3>
                         <h1 className='text-4xl md:text-6xl text-wrap font-bold max-w-[80%] mb-4'>An Aspiring Engineer from Mumbai</h1>
-                        <Link to={'/Pages/Contact'} className=' bg-purple-800 text-white text-2xl p-2 border border-purple-800 shadow-lg rounded-lg '><button className='animate-bounce '>Reach Me Out</button></Link>
+                        <Link to={'/Pages/Contact'} className=' bg-purple-800 text-white text-2xl p-2 border border-purple-800 shadow-lg rounded-lg '><button className='animate-bounce'>Reach Me Out</button></Link>
                     </div>
                     <div >
                         <img className='max-h-[55vh]' src={Bhoomi_Anime} alt='Bhoomi Picture' />
