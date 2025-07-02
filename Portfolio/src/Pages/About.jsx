@@ -17,9 +17,9 @@ function About(){
             </div>
             <div className="grid md:grid-cols-6 md:min-h-[50vh] border border-violet-300 rounded-lg place-items-center md:w-[70vw] mx-auto my-5">
                 <div className=" md:col-span-2 w-full p-5 grid grid-cols-3 md:grid-cols-1 gap-8 text-2xl font-semibold">
-                    <button onClick={() => setActiveTab('education')}><h1>Education</h1></button>                    
-                    <button onClick={() => setActiveTab('skills')}><h1>Skills</h1></button>                 
-                    <button onClick={() => setActiveTab('experience')}><h1>Experience</h1></button>
+                    <button className="cursor-pointer hover:text-3xl" onClick={() => setActiveTab('education')}><h1>Education</h1></button>                    
+                    <button className="cursor-pointer hover:text-3xl" onClick={() => setActiveTab('skills')}><h1>Skills</h1></button>                 
+                    <button className="cursor-pointer hover:text-3xl" onClick={() => setActiveTab('experience')}><h1>Experience</h1></button>
                 </div>
                 <div className="border-t-2 md:border-t-0 md:border-l-2 h-full w-full border-violet-300 p-5 md:col-span-4 text-left">
                     {activetab === 'education' && (
