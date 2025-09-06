@@ -10,7 +10,7 @@ function Projects(){
                 </div>
                 <div className="h-[30vh] w-[30vw] md:w-[14vw] border border-violet-300 rounded-lg">
                     <h1 className="h-[25vh] md:h-[20vh] p-4 flex items-center justify-center font-semibold">Quiz Game using React</h1>
-                    <button className="bg-violet-300 border border-violet-300 rounded-b-lg h-[5vh] md:h-[10vh] w-full text-xl hover:animate-pulse"><a href="https://react-quiz-app-pi-ecru.vercel.app/" target="_blank">Visit Site</a></button>
+                    <button className="bg-violet-300 border border-violet-300 rounded-b-lg h-[5vh] md:h-[10vh] w-full text-xl hover:animate-pulse"><a href="https://codequizzer-iota.vercel.app/" target="_blank">Visit Site</a></button>
                 </div>
                 <div className="h-[30vh] w-[30vw] md:w-[14vw] border border-violet-300 rounded-lg">
                     <h1 className="h-[25vh] md:h-[20vh]  p-4 flex items-center justify-center font-semibold">Movie Gallery using React</h1>
