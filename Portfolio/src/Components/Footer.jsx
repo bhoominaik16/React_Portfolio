@@ -4,7 +4,7 @@ import { Instagram, Mail, Linkedin, Github } from 'lucide-react';
 
     return(
     <footer>
-        <div className='h-auto bg-violet-200 place-items-center p-2'>
+        <div className='h-auto bg-gradient-to-br from-blue-400 to-purple-600 place-items-center p-2 text-white'>
             <div className='md:w-[20vw] grid grid-cols-4 gap-2  text-center place-items-center m-2'>
                 <a href='https://www.instagram.com/bhoomi_naik16/' target='_blank'><Instagram size={32} /></a>
                 <a href="mailto:bhoominaik16@gmail.com" target="_blank" rel="noopener noreferrer"><Mail size={32} /></a>
