@@ -46,12 +46,12 @@ function Contact(){
                     <input type="email" name='email' value={email} onChange={handleemail} placeholder='Enter your email' className='h-fit w-[50vw] md:w-[20vw] p-2 border rounded-xl' required/>
                     <input type="number" name='contact' value={contact} onChange={handlecontact} placeholder='Enter your contact ' className='h-fit w-[50vw] md:w-[20vw] p-2 border rounded-xl'/>
                     <textarea name="message" value={message} onChange={handlemessage} placeholder='Enter the message' className='h-fit w-[50vw] md:w-[20vw] p-2 border rounded-xl' required/>
-                    <button class="px-5 py-2.5 relative rounded group font-medium text-white inline-block" onClick={alertmsg}>
-                            <span class="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-purple-600 to-blue-500"></span>
-                            <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded opacity-50 from-purple-600 to-blue-500"></span>
-                            <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-purple-600 to-blue-500"></span>
-                            <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-purple-600 from-blue-500"></span>
-                            <span class="relative flex items-center justify-center">Submit</span>
+                    <button className="px-5 py-2.5 relative rounded group font-medium text-white inline-block" onClick={alertmsg}>
+                            <span className="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-purple-600 to-blue-500"></span>
+                            <span className="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded opacity-50 from-purple-600 to-blue-500"></span>
+                            <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-purple-600 to-blue-500"></span>
+                            <span className="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-purple-600 from-blue-500"></span>
+                            <span className="relative flex items-center justify-center">Submit</span>
                         </button>
                 </div>
             </div>
