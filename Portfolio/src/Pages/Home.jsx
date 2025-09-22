@@ -25,15 +25,15 @@ function Home(){
                 <div className="min-h-[37vh] border-2 border-violet-200 shadow-2xl  bg-violet-200 grid grid-cols-1 md:grid-cols-3 md:gap-20 items-center text-center mx-[5%] p-[2%] md:min-h-[25vh]">
                 <div>
                     <h1 className='text-2xl md:text-3xl font-bold m-4'>Full Stack Web Developer</h1>
-                    <p className='text-md'>Developing creative and engaging UI designs using <span>React</span> and proficiency in <span>MERN Stack</span></p>
+                    <p className='text-md'>Developing creative and engaging UI designs using <span>React</span> and gaining proficiency in <span>MERN Stack</span></p>
                 </div>
                 <div>
                     <h1 className='text-2xl md:text-3xl font-bold m-4'>Programming Languages</h1>
-                    <p className='text-md'>Understanding of core languages like <span>C Programming</span> and <span>Java</span></p>
+                    <p className='text-md'>Understanding of core languages like <span>C Programming</span>, <span>Javascript</span> and <span>Python</span></p>
                 </div>
                 <div>
                     <h1 className='text-2xl md:text-3xl font-bold m-4'>Other Concepts</h1>
-                    <p className='text-md'>Familiarity with Linux, DevOps(Docker, Kubernetes), Git, DSA, AI-ML, CN and SQL</p>
+                    <p className='text-md'>Familiarity with Linux, DevOps(Docker, Kubernetes, Agile Methodologies), Git, OS, DBMS, CN and SQL</p>
                 </div>
                 </div>
             </div>

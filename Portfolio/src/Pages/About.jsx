@@ -61,18 +61,19 @@ function About(){
                                     <li className="text-xl font-bold">Programming Languages:</li>
                                     <ol>
                                         <li>C Programming</li>
-                                        <li>Java</li>
+                                        <li>Javascript</li>
+                                        <li>Python</li>
                                         <li>SQL</li>
                                         <li>HTML</li>
                                         <li>CSS(Bootstrap, Tailwind)</li>
-                                        <li>Javascript(React)</li>
+                                        <li>React</li>
                                     </ol>
                                 </div>
                                 <div>
                                     <li className="text-xl font-bold">Core Concetps:</li>
                                     <ol>
                                         <li>DBMS</li>
-                                        <li>DevOps(Docker, Kubernetes)</li>
+                                        <li>DevOps(Docker, Kubernetes, Agile Methodologies)</li>
                                         <li>Git/GitHub</li>
                                         <li>DSA</li>
                                         <li>Operating System(Linux)</li>
