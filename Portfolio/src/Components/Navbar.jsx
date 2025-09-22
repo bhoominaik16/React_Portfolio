@@ -23,7 +23,7 @@ function Navbar(){
                             <button onClick={responsivemenu} className='md:hidden absolute right-5'><X size={48}/></button>
                         }
                     <div className={`
-                        ${showmenu ? 'flex ' : 'hidden'} bg-gradient-to-br from-blue-400 to-purple-600 absolute top-[10vh] left-0  min-h-[40vh] w-full md:w-auto md:static md:min-h-full md:flex  `}>
+                        ${showmenu ? 'flex bg-gradient-to-br from-blue-400 to-purple-600' : 'hidden'}  absolute top-[10vh] left-0  min-h-[40vh] w-full md:w-auto md:static md:min-h-full md:flex  `}>
                         <ul className='flex flex-col text-white gap-[5vh] my-auto md:items-center justify-center md:flex-row md:gap-[4vw] font-semibold text-2xl mx-10'>
                             <Link to='/Pages/Home' className='hover:text-slate-400'>Home</Link>
                             <Link to='/Pages/About' className='hover:text-slate-400'>About</Link>
